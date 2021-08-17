@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UB Banking Site(Dynamic)</title>
+    <!-- tailwind css stylesheet  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-5xl mt-16 text-center">Welcome to the <span class="font-semibold text-green-600">UB
+                Bank</span>!!!</h1>
+    </header>
+
+    <main>
+        <section class="bg-green-100 w-2/4 mx-auto mt-8 rounded-md shadow-lg">
+            <h1 class="text-3xl text-center font-medium pt-3 text-indigo-400">Login With Email</h1>
+
+            <div class="p-10 pt-6">
+                <input class="block p-3 mb-4 rounded-xl border-2 border-red-500 focus:outline-none" type="email" name=""
+                    id="user-email" size="50" maxlength="70" placeholder="Your Email (admin@ub.com)" required>
+
+                <input class="block p-3 rounded-xl border-2 border-red-500 focus:outline-none" type="password" name=""
+                    id="user-password" size="50" maxlength="70" placeholder="Your Password (admin)" required>
+
+
+                <button id="submit-button"
+                    class="block bg-pink-500 text-white mt-4 px-5 py-2 rounded-md mx-auto font-bold">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
