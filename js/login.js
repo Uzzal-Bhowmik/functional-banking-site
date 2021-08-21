@@ -1,4 +1,4 @@
-const submitButton = document.getElementById('submit-button').addEventListener('click', function () {
+const submitButton = document.getElementById('login-button').addEventListener('click', function () {
     // get user email 
     const emailField = document.getElementById('user-email');
     const userEmail = emailField.value;
@@ -14,4 +14,4 @@ const submitButton = document.getElementById('submit-button').addEventListener('
     else {
         window.alert('Wrong Credintials! :(')
     }
-})
+});

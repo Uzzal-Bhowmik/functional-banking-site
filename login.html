@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login To UB Bank</title>
+    <!-- tailwindcss stylesheet  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- font-awesome icons  -->
+    <script src="https://kit.fontawesome.com/287b060f6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Login Section  -->
+    <section class="flex justify-center items-center h-screen bg-pink-100">
+        <div class="grid grid-cols-2 w-4/5 h-3/4 shadow-2xl bg-transparent rounded-2xl">
+            <!-- login Credintials -->
+            <div class="text-center bg-white rounded-l-2xl flex items-center">
+
+                <div class="p-3">
+                    <h1 class="text-5xl font-semibold">Login</h1>
+                    <!-- social media icons  -->
+                    <div class="flex justify-center items-center my-8">
+                        <a href="https://www.facebook.com/uzzal.bhowmik01" target="_blank"
+                            class="block mr-3 border border-gray-300 rounded-full h-14 w-14 flex items-center justify-center hover:bg-gray-100">
+                            <i class="fab fa-facebook-f text-2xl font-bold"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/uzzal-bhowmik-76973319a/"
+                            class="block border border-gray-300 rounded-full h-14 w-14 flex items-center justify-center hover:bg-gray-100">
+                            <i class="fab fa-linkedin-in text-2xl font-bold"></i>
+                        </a>
+                    </div>
+
+                    <h3 class="text-1xl font-semibold">Or use your account</h3>
+
+                    <input id="user-email" type="email" name="" id="" placeholder="Email" size="30" maxlength="70"
+                        value="admin@ub.com" class="text-2xl bg-gray-200 my-2 p-2 rounded-lg focus:outline-none">
+
+                    <input id="user-password" type="password" name="" id="" placeholder="Password" size="30"
+                        maxlength="70" value="admin" class="text-2xl bg-gray-200 p-2 rounded-lg focus:outline-none">
+
+                    <a href="https://www.uzzal.netlify.app/" target='_blank'
+                        class="block text-1xl text-gray-500 font-semibold mt-6 mb-2 hover:underline">Forgot
+                        your password?</a>
+                    <button id="login-button"
+                        class="bg-red-500 text-white rounded-full py-3 px-10 text-xl font-semibold">Log In</button>
+                </div>
+
+            </div>
+
+
+            <!-- login details  -->
+            <div class="border p-3 bg-red-400 text-white flex justify-center items-center text-center rounded-r-2xl">
+                <div class="p-4">
+                    <h1 class="text-5xl font-bold mb-4">Welcome To <span class="block py-2 text-blue-200">UB Bank</span>
+                    </h1>
+                    <p class="text-xl">Login With Your Account Credintials. If you don't have one make sure to create
+                        your
+                        personal account with the token gotten from the bank's branch nearby.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js script  -->
+    <script src="js/login.js"></script>
+</body>
+
+</html>
